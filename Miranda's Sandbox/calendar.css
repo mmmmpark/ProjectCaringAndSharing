@@ -1,17 +1,5 @@
 <style>
 
-.header img {
-  float: left;
-  width: 100px;
-  height: 100px;
-  background: #555;
-}
-
-.header h1 {
-  position: relative;
-
-}
-
 ul
 {
 list-style-type:none;
@@ -27,32 +15,47 @@ a:link,a:visited
 {
 width:100%;
 font-weight:bold;
-color:#FFFFFF;
-background-color:#CC99FF;
+color:#FFFFCC;
+background-color:#990033;
 text-align:center;
-padding:8px;
+padding:10px;
+font-size:175%;
 text-decoration:none;
     
 }
 a:hover,a:active
 {
-background-color:#CC33FF;
+background-color:#CC0033;
 }
 
-h1.title
-{
-color:#660066;
+.header img { 
+float: left;
+width: 75px;
+height: 75px;
+}
+
+.header h1 {
+color:#990033;
 font-weight:bold;
-font-size:175%;
+font-size:375%;
 font-family:georgia;
-text-align:right;
+top: 18px;
+left: 20px;
+position: relative;
 }
 
-
+.header h2{
+color:#990033;
+font-size:200%;
+font-family:cursive;
+position: relative;
+text-align:center;
+padding:0px;
+}
 
 body{
 overflow:scroll;
-background-color:#FFFFCC;
+background-image:url("old_map.png");
 }
 
 #menu {
@@ -76,6 +79,7 @@ background-color:#FFFFCC;
 
 div.calendar iframe{
 display: block;
+padding:50px;
 margin-left: auto;
 margin-right: auto;
 }
