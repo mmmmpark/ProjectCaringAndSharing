@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Mock Up</title>
+	<style>
+	#top_nav
+	{
+		list-style-type:none;
+		margin:0;
+		padding-top:20px;
+		padding-bottom:20px;
+		background-color: #585858;
+	}
+	#top_nav li
+	{
+		display:inline;
+		font-size:20px;
+		padding: 23px;
+		font-family:georgia,times,serif;
+	}
+	#top_nav li a
+	{
+		text-decoration: none;
+		color:white;
+	}
+	.selected
+	{
+		font-size:30px;
+	}
+	#logo
+	{
+		width:100px;
+		margin-right:10px;
+	}
+	#main
+	{
+		margin: 0 auto;
+		width:80%;
+	}
+	h1
+	{
+		display:inline;
+	}
+	header 
+	{
+		width: 100%;
+		font-family:georgia,times,serif;
+		padding-bottom:20px;
+		
+	}
+	header #search 
+	{
+		position:relative;
+		margin-top: 80px;
+		float:right;
+	} 
+	input.bigbutton {
+		width:500px;
+		background: #3e9cbf; /*the colour of the button*/
+		padding: 8px 14px 10px; /*apply some padding inside the button*/
+		border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+		cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+		/*style the text*/
+		font-size:1.5em;
+		font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+		letter-spacing:.1em;
+		text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+		color: #fff;
+		/*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
+		-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+		-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+		box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+		/*give the corners a small curve*/
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+	}
+	</style>
+  </head>
+  <body>
+	  <div class="container" id="main">
+		<header>
+			<img id='logo'src=
+			"http://icons.iconarchive.com/icons/aha-soft/people/256/people-icon.png">
+			<h1>Project Caring and Sharing </h1>
+			<div id ="search"> 
+				<form action="">
+				  <input type="text" name="fname">
+				  <input type="submit" value="Search">
+				</form>
+			</div>
+		</header>
+		<div class="nav">
+			<ul id="top_nav">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#news">About</a></li>
+			<li><a href="#contact">Youth</a></li>
+			<li><a href="#about">Family</a></li>
+			<li><a href="#about">Reentry</a></li>
+			<li class="selected"><a href="#about">Calendar</a></li>
+			<li><a href="#about">Volunteer</a></li>
+			<li><a href="#about">Contact</a></li>
+			</ul>
+		</div>
+		<div class="slideshow">
+			<img src="http://www.bubblews.com/assets/images/news/29402780_1357222965.jpg" width=100%>
+		</div>
+	    <div class="container" id="body">
+			<div>
+				<h2> About Us </h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra tincidunt diam, viverra lacinia quam luctus eget. Morbi vehicula egestas lacinia. Phasellus non odio varius, cursus ante eu, scelerisque massa. Nunc eleifend mauris eu fringilla lacinia. Mauris sit amet dictum ligula. Ut nibh justo, varius vel sem sed, auctor consectetur massa. Donec turpis nulla, ullamcorper eleifend porttitor at, venenatis quis mauris. Vivamus at rutrum nisi. Maecenas consequat eros magna, sed tincidunt massa tempus sollicitudin. Quisque vitae tincidunt quam. Nam vitae pellentesque nisl. Quisque blandit sapien sit amet ultrices pellentesque.</p>
+				<h2> Our History </h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra tincidunt diam, viverra lacinia quam luctus eget. Morbi vehicula egestas lacinia. Phasellus non odio varius, cursus ante eu, scelerisque massa. Nunc eleifend mauris eu fringilla lacinia. Mauris sit amet dictum ligula. Ut nibh justo, varius vel sem sed, auctor consectetur massa. Donec turpis nulla, ullamcorper eleifend porttitor at, venenatis quis mauris. Vivamus at rutrum nisi. Maecenas consequat eros magna, sed tincidunt massa tempus sollicitudin. Quisque vitae tincidunt quam. Nam vitae pellentesque nisl. Quisque blandit sapien sit amet ultrices pellentesque.</p>
+				<h2> Our Mission </h2>
+				<p>Our mission is to provide high quality services to individuals (youth and adults) and families in a safe nurturing, family oriented, multi-cultural, multi-age learning environment that will promote academic excellence, promote positive self-image and educational enthusiasm resulting in responsible productive citizens.</p>
+				<h2> Our Goal </h2>
+				<p>In short, our goal is to SAVE LIVES AND REUNITE FAMILIES. We believe the family is the most important institution in our society. We have accepted the challenge to strengthen two of the most vital educating institutions - the FAMILY and the SCHOOL.</p>
+			</div>
+		  <footer> Copyright stuff </footer>
+	  </div>
+  </body>
+</html>
