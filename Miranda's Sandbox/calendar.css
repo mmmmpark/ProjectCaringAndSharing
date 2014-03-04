@@ -96,6 +96,11 @@ ul#navigation li a:hover,a:visited{
   	right: 13%;
 }
 
+.banner{
+	position: relative;
+	width: 750px;
+}
+
 .about-blurb{
 	padding: 15px 25px 15px 25px;
 }
