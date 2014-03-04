@@ -96,6 +96,10 @@ ul#navigation li a:hover,a:visited{
   	right: 13%;
 }
 
+.about-blurb{
+	padding: 15px 25px 15px 25px;
+}
+
 
 div.calendar iframe{
 	display: block;
@@ -110,6 +114,7 @@ footer{
 	background-color: #990033;
 	color:#FFFFCC;
 	word-spacing:35px;
+	font-size: 125%;
 }
 
 footer p{
@@ -120,13 +125,13 @@ body{
 	color:#990033;
 	font-family:georgia;
 	overflow:scroll;
-	background-color:#B0C4DE;
+	background-color:#008000;
 	
 	
 }
 
 #wrapper{
-	width:1050px;
+	width:850px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color:#FFFFCC;
