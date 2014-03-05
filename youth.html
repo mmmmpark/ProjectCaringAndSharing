@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  	<link rel="stylesheet" href="style.css">
+  	<script src="script.js"></script>
+    <title>Youth Programs</title>
+	<style>
+	</style>
+  </head>
+  <body>
+	  <div class="container" id="main">
+		<header>
+			<img id='logo'src=
+			"http://icons.iconarchive.com/icons/aha-soft/people/256/people-icon.png">
+			<h1>Project Caring and Sharing </h1>
+			<div id ="search"> 
+				<form action="">
+				  <input type="text" name="fname">
+				  <input type="submit" value="Search">
+				</form>
+			</div>
+		</header>
+		<div class="nav">
+			<ul id="top_nav">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#news">About</a></li>
+			<li><a href="#contact">Youth</a></li>
+			<li><a href="#about">Family</a></li>
+			<li><a href="#about">Reentry</a></li>
+			<li class="selected"><a href="#about">Calendar</a></li>
+			<li><a href="#about">Volunteer</a></li>
+			<li><a href="#about">Contact</a></li>
+			</ul>
+		</div>
+		<div class="slideshow">
+			<img src="http://www.bubblews.com/assets/images/news/29402780_1357222965.jpg" width=100%>
+		</div>
+	    <div class="container" id="body">
+			<div id='left_sidebar'>
+				<dl>
+				  <dt><h3>Children & Youth Empowerment Programs</h3></dt>
+				  <dd><a href="javascript:void(0)" onclick="changeDiv('amp')">Academic Mentoring Program</a></dd>
+				  <dd><a href="javascript:void(0)" onclick="changeDiv('children')">Mentoring Children of Incarcerated Parents Program</a></dd>
+				  <dd><a href="javascript:void(0)" onclick="changeDiv('camps')">Summer/Winter Day Camps</a></dd>
+				  <dd><a href="javascript:void(0)" onclick="changeDiv('next_step')">The Next Step Program</a></dd>
+				</dl>
+			</div>
+			<div id ='right_sidebar'>
+				<!-- This is the landing page info !-->
+				<div id="landing">
+					AMP Program Goals Are:
+						to see improvement in core academic subjects.
+						to see a reduction in the number of unexcused absences from school.
+						to see psoitive changes in student behavior and attitude, anger management, self-esteem abilities, anti-social behavior and decision-making.
+				</div>
+				<div id="amp" style="display:none;">
+					<h2>Academic Mentoring Program:</h2>
+					<p>Our academic mentoring program is designed for children and youth, ages 8 years old to 18 years old, who may have academic challenges, behavior issues, emotional trauma and/or may have a parent who is incarcerated.</p>
+					<button type="button">I have a question!</button>
+					<button type="button">Sign my child up!</button>
+				</div>
+				<div id="children" style="display:none;">
+					<h2>Mentoring Children of Incarcerated Parents Program:</h2>
+					<p>This is a structured one-to-one relationship between a young person, ages 8-17, who has one or both parents incarcerated and a loving, caring volunteer.</p>
+					<button type="button">I have a question!</button>
+					<button type="button">Sign my child up!</button>
+				</div>
+				<div id="camps" style="display:none;">
+					<h2>Summer/Winter Day Camps:</h2>
+					<p>The camps are held during the traditional summer school breaks. Each camp provides extensive education and social development activities for children entering the 6th, 7th, and 8th grades.</p>
+				<button type="button">I have a question!</button>
+				<button type="button">Sign my child up!</button>
+				</div>
+				<div id="next_step" style="display:none;">
+					<h2>The Next Step Program:</h2>
+					<p>The next step program is a college admission test preparation and financial aid assistant program.</p>
+					<button type="button">I have a question!</button>
+					<button type="button">Sign my child up!</button>
+				</div>
+			</div>
+		</div>
+		<footer> 985 West Holt Avenue, Pomona, CA 91768</footer>
+	  </div>
+  </body>
+</html>
