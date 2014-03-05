@@ -1,87 +1,146 @@
 <style>
 
-ul
-{
-list-style-type:none;
-margin:0;
-padding:0;
+ul#navigation
+{ 
+	width: 1050px;
+	float: left;
+  	margin: 0; 
+  	padding: 0;
+  }
+
+ul#navigation li{ 
+	float: left;
+  margin: 0px 0 0 0;
+  padding: 0px 0 0 0px;
+  list-style: none;
 }
 
-li
-{
-display:inline;
+ul#navigation li a
+{ letter-spacing: 0.1em;
+  font-size:150%;
+  display: block;
+  float: left;  
+  height: 38px;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  color:#FFFFCC;
+  text-decoration: none;
+  border-right: 1px solid #FFFFCC;
+  background-color:#990033;
+} 
+
+ul#navigation li a:hover,a:visited{ 
+	color:#FFFFCC;
+	background-color:#CC0033;
 }
-a:link,a:visited
-{
-width:100%;
-font-weight:bold;
-color:#FFFFCC;
-background-color:#990033;
-text-align:center;
-padding:10px;
-font-size:175%;
-text-decoration:none;
-    
-}
-a:hover,a:active
-{
-background-color:#CC0033;
+
+.menu
+{ width: 100%;
+  height: 71px;
+  padding: 5px 0px 15px 0px;
+
+} 
+
+.menu ul{
+	list-style-type: none;
 }
 
 .header img { 
-float: left;
-width: 75px;
-height: 75px;
+	float: left;
+	width: 75px;
+	height: 75px;
 }
 
 .header h1 {
-color:#990033;
-font-weight:bold;
-font-size:375%;
-font-family:georgia;
-top: 18px;
-left: 20px;
-position: relative;
+	font-weight:bold;
+	font-size:300%;
+	top: 18px;
+	left: 20px;
+	position: relative;
 }
 
 .header h2{
-color:#990033;
-font-size:200%;
-font-family:cursive;
-position: relative;
-text-align:center;
-padding:0px;
+	font-size:200%;
+	font-family:cursive;
+	position: relative;
+	text-align:center;
+	padding:0px;
+}
+
+.search-box{
+	display:inline-block;
+	border-radius: 0px;
+	padding: 6px 12px;
+	font-size: 14px;
+	right:17%;
+	top: 60px;
+	margin: 0;
+	width: 134px; 
+	position: absolute;
+    border: 1px solid #BBB; 
+}
+
+.submit-button{
+	display: inline-block;
+	margin-bottom: 0;
+	text-align: center;
+	border-radius: 0px;
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+	font-size: 14px;
+	padding: 6px 12px;
+	border: 1px solid transparent;
+	position: absolute;
+  	top: 60px;
+  	right: 13%;
+}
+
+.banner{
+	position: relative;
+	width: 750px;
+}
+
+.about-blurb{
+	padding: 15px 25px 15px 25px;
+}
+
+
+div.calendar iframe{
+	display: block;
+	padding:50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer{
+	text-align:center;
+	display:block;
+	background-color: #990033;
+	color:#FFFFCC;
+	word-spacing:35px;
+	font-size: 125%;
+}
+
+footer p{
+	word-spacing: 5px;
 }
 
 body{
-overflow:scroll;
-background-image:url("old_map.png");
+	color:#990033;
+	font-family:georgia;
+	overflow:scroll;
+	background-color:#008000;
+	
+	
 }
 
-#menu {
-  text-align: center;
-}
-
-#menu * {
-  display: inline;
-}
-
-#menu li {
-  display: inline-block;
-}
-
-#menu span {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  height: 0;
-}
-
-div.calendar iframe{
-display: block;
-padding:50px;
-margin-left: auto;
-margin-right: auto;
+#wrapper{
+	width:850px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#FFFFCC;
+	padding: 10px 10px 10px 10px;
 }
 
 </style>
