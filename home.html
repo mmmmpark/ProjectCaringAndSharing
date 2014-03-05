@@ -5,7 +5,7 @@
   	<link rel="stylesheet" href="style.css">
   	<script src="jquery-1.2.6.min.js"></script>
   	<script src="script.js"></script>
-    <title>Youth Programs</title>
+    <title>Home</title>
 	<style>
 	</style>
   </head>
@@ -24,9 +24,9 @@
 		</header>
 		<div class="nav">
 			<ul id="top_nav">
-			<li><a href="home.html">Home</a></li>
+			<li class="selected"><a href="home.html">Home</a></li>
 			<li><a href="about.html">About</a></li>
-			<li class="selected"><a href="youth.html">Youth</a></li>
+			<li><a href="youth.html">Youth</a></li>
 			<li><a href="family.html">Family</a></li>
 			<li><a href="reentry.html">Re-entry</a></li>
 			<li><a href="calendar.html">Calendar</a></li>
@@ -41,18 +41,20 @@
         </div>
 	    <div class="container" id="body">
 			<div id='left_sidebar'>
-				<dl>
-				  <dt><h3>Children & Youth Empowerment Programs</h3></dt>
-				  <dd><a href="javascript:void(0)" onclick="changeDiv('amp')">Academic Mentoring Program</a></dd>
-				  <dd><a href="javascript:void(0)" onclick="changeDiv('children')">Mentoring Children of Incarcerated Parents Program</a></dd>
-				  <dd><a href="javascript:void(0)" onclick="changeDiv('camps')">Summer/Winter Day Camps</a></dd>
-				  <dd><a href="javascript:void(0)" onclick="changeDiv('next_step')">The Next Step Program</a></dd>
-				</dl>
+				<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=9ej5q4nb1er7eq3bfjt98i5a2s%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="300" height="500" frameborder="0" scrolling="no"></iframe>
+          		<h3>
+            		Top links
+          		</h3>
+         		<ul>
+         		  	<li>Link</li>
+       		    	<li>Link</li>
+       		    	<li>Link</li>
+          		</ul>
 			</div>
 			<div id ='right_sidebar'>
 				<!-- This is the landing page info !-->
 				<div id="landing">
-					<p>Project Caring and Sharing offers multiple children and youth programs for different students and needs. The available programs are shown on the left and click on each one for more information. </p>
+					<p>Project Caring and Sharing offers progams for youth, family, and re-entry. They also have special events including emergency food banks, clothing, and personal hygiene items giveaways, health fairs, back-to-school giveaways, holiday food baskets and holiday toys giveaways to single heads of households, senior citizens and the working poor. Click on the menu buttons above to learn more. </p>
 				</div>
 				<div id="amp" style="display:none;">
 					<h2>Academic Mentoring Program</h2>
@@ -62,24 +64,12 @@
 					<button type="button">I have a question!</button>
 					<button type="button">Sign my child up!</button>
 				</div>
-				<div id="children" style="display:none;">
-					<h2>Mentoring Children of Incarcerated Parents Program</h2>
-					<p>This is a structured one-to-one relationship between a young person, ages 8-17, who has one or both parents incarcerated and a loving, caring volunteer.</p>
-					<button type="button">I have a question!</button>
-					<button type="button">Sign my child up!</button>
-				</div>
-				<div id="camps" style="display:none;">
-					<h2>Summer/Winter Day Camps</h2>
-					<p>The camps are held during the traditional summer school breaks. Each camp provides extensive education and social development activities for children entering the 6th, 7th, and 8th grades.</p>
-				<button type="button">I have a question!</button>
-				<button type="button">Sign my child up!</button>
-				</div>
-				<div id="next_step" style="display:none;">
-					<h2>The Next Step Program:</h2>
-					<p>The next step program is a college admission test preparation and financial aid assistant program.</p>
-					<button type="button">I have a question!</button>
-					<button type="button">Sign my child up!</button>
-				</div>
+				<div id="video">
+        			<h3>Name of video 1</h3>
+        			<img src="video.png" alt="video1">
+        			<h3>Name of video 2</h3>
+        			<img src="video.png" alt="video2">
+      			</div>
 			</div>
 		</div>
 		<footer> 985 West Holt Avenue, Pomona, CA 91768</footer>

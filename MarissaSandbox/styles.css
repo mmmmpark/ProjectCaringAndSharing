@@ -51,12 +51,6 @@ a, a:hover
 a:hover
 { text-decoration: none;}
 
-blockquote
-{ margin: 20px 0; 
-  padding: 10px 20px 0 20px;
-  border: 1px solid #E5E5DB;
-  background: #FFF;}
-
 ul
 { margin: 2px 0 22px 17px;}
 
@@ -126,18 +120,6 @@ ol li
   padding: 4px 0 0 0;
   color: #CDC090;}
 
-#logo #contact_details
-{ position: absolute; 
-  top: 60px;
-  right: 65px;}
-
-#logo #contact_details p
-{ text-align: center;
-  padding: 0;
-  line-height: 22px;
-  font-size: 110%;
-  color: #999;}
-
 #menubar
 { width: 870px;
   height: 71px;
@@ -179,6 +161,11 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   margin: 0 auto 0 auto;
   padding: 25px 14px 25px 14px;
   background: #FFF url(content.png) repeat-y;} 
+
+.sidebar
+{ float: right;
+  width: 300px;
+  padding: 0 15px 20px 15px;}
 
 #content
 { text-align: left;
