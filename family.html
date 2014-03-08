@@ -42,11 +42,21 @@
 	    <div class="container" id="body">
 			<div id='left_sidebar'>
 				<dl>
+					<dt><h3>Family Support Classes</h3></dt>
+					<dl>
+					  <dt><h3>Available Classes</h3></dt>
+					  <dd><a href="javascript:void(0)" onclick="changeDiv('anger')">Anger Management</a></dd>
+					  <dd><a href="javascript:void(0)" onclick="changeDiv('mother')">Motherhood</a></dd>
+					  <dd><a href="javascript:void(0)" onclick="changeDiv('father')">Project Fatherhood</a></dd>
+					  <dd><a href="javascript:void(0)" onclick="changeDiv('single')">Single and Parenting</a></dd>
+					  <dd><a href="javascript:void(0)" onclick="changeDiv('strength')">Strengthening Families</a></dd>
+					  <dd><a href="javascript:void(0)" onclick="changeDiv('drugs')">The Truth about Drugs</a></dd>
+					</dl>
+				<dl>
 				  <dt><h3>Family Empowerment Programs</h3></dt>
 				  <dd><a href="javascript:void(0)" onclick="changeDiv('bts-giveaway')">Back-to-School Giveaway Program</a></dd>
 				  <dd><a href="javascript:void(0)" onclick="changeDiv('health')">Community Health and Resource Fair</a></dd>
 				  <dd><a href="javascript:void(0)" onclick="changeDiv('food')">Food and Clothing Distribution Program</a></dd>
-				  <dd><a href="javascript:void(0)" onclick="changeDiv('classes')">Family Support Classes</a></dd>
 				  <dd><a href="javascript:void(0)" onclick="changeDiv('holiday')">Holiday Giveaway Programs</a></dd>
 				</dl>
 			</div>
@@ -74,62 +84,45 @@
 				<button type="button">I have a question!</button>
 				<button type="button">Sign me up!</button>
 				</div>
-				<div id="classes" style="display:none;">
-					<h2>Family Support Classes:</h2>
-					<p>A series of on-going family support classes, including parenting, anger management, domestic violence, budgeting, tenant rights and responsibilities classes and life skills management training are offered by a variety of community organizations and advocates.</p>
-					<div id='class_list'>
-						<dl>
-						  <dt><h3>Available Classes</h3></dt>
-						  <dd><a href="javascript:void(0)" onclick="changeDiv('anger')">Anger Management</a></dd>
-						  <dd><a href="javascript:void(0)" onclick="changeDiv('mother')">Motherhood</a></dd>
-						  <dd><a href="javascript:void(0)" onclick="changeDiv('father')">Project Fatherhood</a></dd>
-						  <dd><a href="javascript:void(0)" onclick="changeDiv('single')">Single and Parenting</a></dd>
-						  <dd><a href="javascript:void(0)" onclick="changeDiv('strength')">Strengthening Families</a></dd>
-						  <dd><a href="javascript:void(0)" onclick="changeDiv('drugs')">The Truth about Drugs</a></dd>
-						</dl>
-					</div>
-					<div id='class_descriptions'>
-						<div id="anger" style="display:none;">
-							<h2>Anger Management Classes:</h2>
-							<p>A 26 to 52 week class, depending on the needs of the individual. The classes are facilitated by certified counselors.</p>
-							<button type="button">I have a question!</button>
-							<button type="button">Sign me up!</button>
-						</div>
-						<div id="mother" style="display:none;">
-							<h2>Motherhood Classes:</h2>
-							<p>A 26 week class that supports and prepares mothers looking for ways to help their children cope with the fears and uncertainties that are a natural part of our world and its many crisis situations. The groups are taught under two different categories: married and single mothers. The classes are facilitated by certified counselors.</p>
-							<button type="button">I have a question!</button>
-							<button type="button">Sign me up!</button>
-						</div>
-						<div id="father" style="display:none;">
-							<h2>Project Fatherhood Classes:</h2>
-							<p>A 26 week class where fathers can deal with and heal unresolved issues that disrupt their relationships with their children and others. The Fatherhood curriculum is designed to help fathers engage and support their children and simply be better fathers.</p>
-							<button type="button">I have a question!</button>
-							<button type="button">Sign me up!</button>
-						</div>
-						<div id="single" style="display:none;">
-							<h2>Single and Parenting Classes:</h2>
-							<p>TBD</p>
-							<button type="button">I have a question!</button>
-							<button type="button">Sign me up!</button>
-						</div>
-						<div id="strength" style="display:none;">
-							<h2>Strengthening Families Classes:</h2>
-							<p>This is a 14 session, science based parenting skills, children's life skills, and family life skills training program specifically designed for high-risk families.</p>
-							<button type="button">I have a question!</button>
-							<button type="button">Sign me up!</button>
-						</div>
-						<div id="drugs" style="display:none;">
-							<h2>The Truth about Drugs Classes:</h2>
-							<p>This is a 18 session program specifically designed to reach young people with effective, fact-based drug education before they start experimenting with drugs.</p>
-							<button type="button">I have a question!</button>
-							<button type="button">Sign me up!</button>
-						</div>
-					</div>
-				</div>
 				<div id="holiday" style="display:none;">
 					<h2>Holiday Giveaway Programs:</h2>
 					<p>We have an annual holiday (Thanksgiving) food giveaway, as well as an annual toys (Christmas) giveaway.</p>
+					<button type="button">I have a question!</button>
+					<button type="button">Sign me up!</button>
+				</div>
+				<div id="anger" style="display:none;">
+					<h2>Anger Management Classes:</h2>
+					<p>A 26 to 52 week class, depending on the needs of the individual. The classes are facilitated by certified counselors.</p>
+					<button type="button">I have a question!</button>
+					<button type="button">Sign me up!</button>
+				</div>
+				<div id="mother" style="display:none;">
+					<h2>Motherhood Classes:</h2>
+					<p>A 26 week class that supports and prepares mothers looking for ways to help their children cope with the fears and uncertainties that are a natural part of our world and its many crisis situations. The groups are taught under two different categories: married and single mothers. The classes are facilitated by certified counselors.</p>
+					<button type="button">I have a question!</button>
+					<button type="button">Sign me up!</button>
+				</div>
+				<div id="father" style="display:none;">
+					<h2>Project Fatherhood Classes:</h2>
+					<p>A 26 week class where fathers can deal with and heal unresolved issues that disrupt their relationships with their children and others. The Fatherhood curriculum is designed to help fathers engage and support their children and simply be better fathers.</p>
+					<button type="button">I have a question!</button>
+					<button type="button">Sign me up!</button>
+				</div>
+				<div id="single" style="display:none;">
+					<h2>Single and Parenting Classes:</h2>
+					<p>TBD</p>
+					<button type="button">I have a question!</button>
+					<button type="button">Sign me up!</button>
+				</div>
+				<div id="strength" style="display:none;">
+					<h2>Strengthening Families Classes:</h2>
+					<p>This is a 14 session, science based parenting skills, children's life skills, and family life skills training program specifically designed for high-risk families.</p>
+					<button type="button">I have a question!</button>
+					<button type="button">Sign me up!</button>
+				</div>
+				<div id="drugs" style="display:none;">
+					<h2>The Truth about Drugs Classes:</h2>
+					<p>This is a 18 session program specifically designed to reach young people with effective, fact-based drug education before they start experimenting with drugs.</p>
 					<button type="button">I have a question!</button>
 					<button type="button">Sign me up!</button>
 				</div>
