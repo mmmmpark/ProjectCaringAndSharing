@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  	<link rel="stylesheet" href="style.css">
+  	<script src="jquery-1.2.6.min.js"></script>
+  	<script src="script.js"></script>
+    <title>Youth Programs</title>
+	<style>
+	</style>
+  </head>
+  <body>
+	  <div class="container" id="main">
+		<header>
+			<img id='logo'src=
+			"http://icons.iconarchive.com/icons/aha-soft/people/256/people-icon.png">
+			<h1>Project Caring and Sharing </h1>
+			<div id ="search"> 
+				<form action="">
+				  <input type="text" name="fname">
+				  <input type="submit" value="Search">
+				</form>
+			</div>
+		</header>
+		<div class="nav">
+			<ul id="top_nav">
+			<li><a href="home.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li class="selected"><a href="youth.html">Youth</a></li>
+			<li><a href="family.html">Family</a></li>
+			<li><a href="reentry.html">Re-entry</a></li>
+			<li><a href="calendar.html">Calendar</a></li>
+			<li><a href="volunteer.html">Volunteer</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div id="slideshow">
+            <img src="flower.jpeg" alt="img1" class="active" />
+            <img src="flower1.jpeg" alt="img2" />
+            <img src="flower.jpeg" alt="img3" />
+        </div>
+	    <div class="container" id="body">
+			<div id='left_sidebar'>
+				<dl>
+				  <dt><h3>Re-Entry Empowerment Programs</h3></dt>
+				  <dd><a href="javascript:void(0)" onclick="changeDiv('pre')">Pre-Release Program</a></dd>
+				  <dd><a href="javascript:void(0)" onclick="changeDiv('post')">Post-Release Program</a></dd>
+				  <dd><a href="javascript:void(0)" onclick="changeDiv('pen')">Pen Pal Ministry</a></dd>
+				</dl>
+			</div>
+			<div id ='right_sidebar'>
+				<!-- This is the landing page info !-->
+				<div id="landing">
+					<p>Our Re-entry programs are designed to include the help of the entire community along with local government agencies, correctional agencies, businesses and faith-based groups. By partnering with local faith-based organizations, government agencies and other entities who have agreed to help in this initiative, the returning inmates are given a high chance of succeeding in putting their lives back together. We are provided program support by the Church of God in Christ, Inc. National Prision. he available programs are shown on the left and click on each one for more information.</p>
+				</div>
+				<div id="pre" style="display:none;">
+					<h2>Pre-Release Program</h2>
+					<p>This program helps to provide support services prior to release to assure a smooth transition and speedy placement into home, family, and employment for individuals returning from incarceration.</p>
+					<button type="button">I have a question!</button>
+					<button type="button">Please send me more information</button>
+				</div>
+				<div id="post" style="display:none;">
+					<h2>Post-Release Program</h2>
+					<p>This program provides consistent and caring volunteer mentors to guide, support and inspire ex-offenders to develop the attitudes and skills that will help them to become successful in their personal lives as members of their community and at work.</p>
+					<button type="button">I have a question!</button>
+					<button type="button">Please send me more information</button>
+				</div>
+				<div id="pen" style="display:none;">
+					<h2>Pen Pal Ministry</h2>
+					<p>Volunteers write incarcerated individuals in prison or jain at least once month</p>
+				<button type="button">I have a question!</button>
+				<button type="button">Please send me more information</button>
+				</div>
+			</div>
+		</div>
+		<footer> 985 West Holt Avenue, Pomona, CA 91768</footer>
+	  </div>
+  </body>
+</html>
