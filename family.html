@@ -5,7 +5,7 @@
   	<link rel="stylesheet" href="style.css">
   	<script src="jquery-1.2.6.min.js"></script>
   	<script src="script.js"></script>
-    <title>Youth Programs</title>
+    <title>Family Programs</title>
 	<style>
 	</style>
   </head>
@@ -26,8 +26,8 @@
 			<ul id="top_nav">
 			<li><a href="home.html">Home</a></li>
 			<li><a href="about.html">About</a></li>
-			<li class="selected"><a href="youth.html">Youth</a></li>
-			<li><a href="family.html">Family</a></li>
+			<li><a href="youth.html">Youth</a></li>
+			<li class="selected"><a href="family.html">Family</a></li>
 			<li><a href="reentry.html">Re-entry</a></li>
 			<li><a href="calendar.html">Calendar</a></li>
 			<li><a href="volunteer.html">Volunteer</a></li>
@@ -41,9 +41,8 @@
         </div>
 	    <div class="container" id="body">
 			<div id='left_sidebar'>
-				<dl>
-				  <dt><h3>Family Support Classes</h3></dt>
-					  <dd><h4>Available Classes:</hd></dt>
+					<dl>
+					  <dt><h3>Family Support Classes</h3></dt>
 					  <dd><a href="javascript:void(0)" onclick="changeDiv('anger')">Anger Management</a></dd>
 					  <dd><a href="javascript:void(0)" onclick="changeDiv('mother')">Motherhood</a></dd>
 					  <dd><a href="javascript:void(0)" onclick="changeDiv('father')">Project Fatherhood</a></dd>
@@ -56,6 +55,7 @@
 				  <dd><a href="javascript:void(0)" onclick="changeDiv('bts-giveaway')">Back-to-School Giveaway Program</a></dd>
 				  <dd><a href="javascript:void(0)" onclick="changeDiv('health')">Community Health and Resource Fair</a></dd>
 				  <dd><a href="javascript:void(0)" onclick="changeDiv('food')">Food and Clothing Distribution Program</a></dd>
+				  <dd><a href="javascript:void(0)" onclick="changeDiv('classes')">Family Support Classes</a></dd>
 				  <dd><a href="javascript:void(0)" onclick="changeDiv('holiday')">Holiday Giveaway Programs</a></dd>
 				</dl>
 			</div>
@@ -83,12 +83,11 @@
 				<button type="button">I have a question!</button>
 				<button type="button">Sign me up!</button>
 				</div>
-				<div id="holiday" style="display:none;">
-					<h2>Holiday Giveaway Programs:</h2>
-					<p>We have an annual holiday (Thanksgiving) food giveaway, as well as an annual toys (Christmas) giveaway.</p>
-					<button type="button">I have a question!</button>
-					<button type="button">Sign me up!</button>
+				<div id="classes" style="display:none;">
+					<h2>Family Support Classes:</h2>
+					<p>A series of on-going family support classes, including parenting, anger management, domestic violence, budgeting, tenant rights and responsibilities classes and life skills management training are offered by a variety of community organizations and advocates.</p>
 				</div>
+
 				<div id="anger" style="display:none;">
 					<h2>Anger Management Classes:</h2>
 					<p>A 26 to 52 week class, depending on the needs of the individual. The classes are facilitated by certified counselors.</p>
@@ -122,6 +121,13 @@
 				<div id="drugs" style="display:none;">
 					<h2>The Truth about Drugs Classes:</h2>
 					<p>This is a 18 session program specifically designed to reach young people with effective, fact-based drug education before they start experimenting with drugs.</p>
+					<button type="button">I have a question!</button>
+					<button type="button">Sign me up!</button>
+				</div>
+					
+				<div id="holiday" style="display:none;">
+					<h2>Holiday Giveaway Programs:</h2>
+					<p>We have an annual holiday (Thanksgiving) food giveaway, as well as an annual toys (Christmas) giveaway.</p>
 					<button type="button">I have a question!</button>
 					<button type="button">Sign me up!</button>
 				</div>
