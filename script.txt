@@ -1,0 +1,31 @@
+// Script written by Minnie Lai - elai@hmc.edu
+// To run, set up your Spreadsheet trigger through Resources > Current project's trigger on form-submit
+// e is the event trigger, in this case, the new entry
+
+function sendFormByEmail(e) 
+{
+	try
+	{	
+        // Change the recipient's email to the correct person per form
+		var recipient = "minzeycat@gmail.com";
+        
+		var subject = "PCS Contact Form Submission";
+
+        // Always have the response on the first sheet, always have that as active
+		var formResponses = SpreadsheetApp.getActiveSheet();
+        var headers = formResponses.getRange(1,1,1,formResponses.getLastColumn()).getValues()[0];
+        var body = "";
+        for (var field in headers) 
+        {
+          if (e) // this if is added to prevent error on run
+          {
+            body += headers[field] + ' : '+ e.values[field].toString() + '\n\n'; 
+          }
+        }
+		MailApp.sendEmail(recipient, subject, body);
+	}
+    catch (e)
+    {
+      Logger.log(e.toString());
+    }
+}

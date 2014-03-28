@@ -45,6 +45,23 @@ function slideSwitch() {
         });
 }
 
+function dialog(id) {
+	console.log(id);
+    $("#dialog-message").dialog({
+	  width:  600,
+	  height: 500,
+      modal: true,
+      buttons: {
+        Close: function() {
+          $( this ).dialog( "close" );
+        }
+      }
+    });
+	$("#form_iframe").attr("src", "https://docs.google.com/forms/d/"+ id + "/viewform?embedded=true")
+	document.getElementById("dialog-message").style.display = "";
+}
+
+  
 $(function() {
     setInterval( "slideSwitch()", 5000 );
 });

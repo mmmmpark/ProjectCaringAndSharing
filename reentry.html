@@ -3,11 +3,11 @@
 <html>
   <head>
   	<link rel="stylesheet" href="style.css">
-  	<script src="jquery-1.2.6.min.js"></script>
-  	<script src="script.js"></script>
+  	<script src="jquery-1.10.2.js"></script>
+	<script src="jquery-ui-1.10.4.custom.min.js"></script>
+	<link rel="stylesheet" href="jquery-ui.css">
+   	<script src="script.js"></script>
     <title>Reentry Programs</title>
-	<style>
-	</style>
   </head>
   <body>
 	  <div class="container" id="main">
@@ -72,6 +72,9 @@
 				<button type="button">Please send me more information</button>
 				</div>
 			</div>
+		</div>
+		<div id="dialog-message" title="Contact Form"  style="display:none;">
+			<iframe id = 'form_iframe' width="600" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 		</div>
 		<footer> 985 West Holt Avenue, Pomona, CA 91768</footer>
 	  </div>
