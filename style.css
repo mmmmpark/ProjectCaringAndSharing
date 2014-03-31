@@ -133,4 +133,7 @@ footer
 	display:block;
 	word-spacing:5px;
 	font-size: 125%;
+	background-color: #680000;
+	color: white;
+	padding: 15px;
 }
