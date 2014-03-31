@@ -46,6 +46,8 @@ body
 #left_sidebar 
 {
 	padding-top:10px;
+	padding-left: 15px;
+	padding-right: 15px;
 	width: 40%; 
 	float: left;
 	height:500px;
@@ -100,6 +102,14 @@ header #search
 
 #slideshow IMG.last-active {
     z-index:9;
+}
+
+#contact-info{
+	padding: 15px;
+}
+
+#contact-info p{
+	padding-left: 15px;
 }
 
 
