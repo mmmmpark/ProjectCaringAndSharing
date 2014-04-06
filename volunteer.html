@@ -13,10 +13,19 @@
 		<header>
 			<img id='logo'src="Pictures/pcheader.png">
 			<div id ="search"> 
-				<form action="">
-				  <input type="text" name="fname">
-				  <input type="submit" value="Search">
-				</form>
+				<script>
+				  (function() {
+				    var cx = '003738095924212178455:qhooa41vlxq';
+				    var gcse = document.createElement('script');
+				    gcse.type = 'text/javascript';
+				    gcse.async = true;
+				    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+				        '//www.google.com/cse/cse.js?cx=' + cx;
+				    var s = document.getElementsByTagName('script')[0];
+				    s.parentNode.insertBefore(gcse, s);
+				  })();
+				</script>
+				<gcse:search></gcse:search>
 			</div>
 		</header>
 		<div class="nav">

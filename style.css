@@ -78,8 +78,9 @@ header
 header #search 
 {
 	position:relative;
-	margin-top: 80px;
+	margin-top: 35px;
 	float:right;
+	width: 35%
 } 
 
 #slideshow {
