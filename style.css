@@ -11,12 +11,12 @@
 	display:inline;
 	font-size:20px;
 	padding: 23px;
-	font-family:georgia,times,serif;
+	/*font-family:georgia,times,serif;*/
 }
 
 body 
 {
-	font-family:georgia,times,serif;
+	font-family: tahoma, geneva,sans-serif;
 	font-size:18px;
 	height:100%;
 }
@@ -71,7 +71,7 @@ h1
 header 
 {
 	width: 100%;
-	font-family:georgia,times,serif;
+	/*font-family:georgia,times,serif;*/
 	padding-bottom:20px;
 	
 }
@@ -117,7 +117,7 @@ header #search
 input.bigbutton 
 {
 	width:500px;
-	background: #3e9cbf; /*the colour of the button*/
+	background: #6699ff; /*the colour of the button*/
 	padding: 8px 14px 10px; /*apply some padding inside the button*/
 	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
 	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
