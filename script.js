@@ -46,7 +46,6 @@ function slideSwitch() {
 }
 
 function dialog(id) {
-	console.log(id);
     $("#dialog-message").dialog({
 	  width:  600,
 	  height: 500,
@@ -64,4 +63,12 @@ function dialog(id) {
   
 $(function() {
     setInterval( "slideSwitch()", 5000 );
+});
+
+$(window).bind("load", function() {
+	if(window.location.hash) {
+	    var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+	   changeDiv(hash);
+	  // Fragment exists
+	} 
 });
